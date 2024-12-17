@@ -9,6 +9,7 @@ import Navbar from './Navbar.jsx'
 import Header from './components/header/Header.jsx'
 import Main from './components/main/Main.jsx'
 import Footer from './components/footer/Footer.jsx'
+import Projects from './projects/Projects.jsx'
 function App() {
   //const [count, setCount] = useState(0)
 
@@ -28,6 +29,8 @@ function App() {
         <Navbar></Navbar>
         <hr />
         <Footer></Footer>
+        <hr />
+        <Projects></Projects>
       </div>
     </>
   )
